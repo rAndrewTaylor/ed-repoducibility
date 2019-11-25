@@ -1,4 +1,4 @@
-# ed_repro
+# ed-repoducibility
 
 Welcome to ProjectTemplate!
 

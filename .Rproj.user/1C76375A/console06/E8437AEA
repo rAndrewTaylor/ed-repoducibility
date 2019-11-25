@@ -1,3 +1,94 @@
 ]0;~/Box Sync/ed_repro[?1034hMacBook-Pro-3:ed_repro andrewtaylor$ [KMacBook-Pro-3:ed_repro andrewtaylor$ git init
 Initialized empty Git repository in /Users/andrewtaylor/Box Sync/ed_repro/.git/
 ]0;~/Box Sync/ed_reproMacBook-Pro-3:ed_repro andrewtaylor$ git add .
+]0;~/Box Sync/ed_reproMacBook-Pro-3:ed_repro andrewtaylor$ git commit -m "initialize project"
+[master (root-commit) 2a70828] initialize project
+ 29 files changed, 200 insertions(+)
+ create mode 100644 .Rproj.user/1C76375A/console06/E8437AEA
+ create mode 100644 .Rproj.user/1C76375A/console06/E8437AEA.env
+ create mode 100644 .Rproj.user/1C76375A/console06/INDEX001
+ create mode 100644 .Rproj.user/1C76375A/sources/s-2F61DA53/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 README.md
+ create mode 100644 TODO
+ create mode 100644 cache/README.md
+ create mode 100644 config/README.md
+ create mode 100644 config/global.dcf
+ create mode 100644 data/README.md
+ create mode 100644 diagnostics/1.R
+ create mode 100644 diagnostics/README.md
+ create mode 100644 docs/README.md
+ create mode 100644 ed_repro.Rproj
+ create mode 100644 graphs/README.md
+ create mode 100644 lib/README.md
+ create mode 100644 lib/globals.R
+ create mode 100644 lib/helpers.R
+ create mode 100644 logs/README.md
+ create mode 100644 munge/01-A.R
+ create mode 100644 munge/README.md
+ create mode 100644 profiling/1.R
+ create mode 100644 profiling/README.md
+ create mode 100644 reports/README.md
+ create mode 100644 src/README.md
+ create mode 100644 src/eda.R
+ create mode 100644 tests/1.R
+ create mode 100644 tests/README.md
+]0;~/Box Sync/ed_reproMacBook-Pro-3:ed_repro andrewtaylor$ git remote add origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+]0;~/Box Sync/ed_reproMacBook-Pro-3:ed_repro andrewtaylor$ git@github.com:username/letters.gitr[K[1P/letters.git[1P/letters.git[1P/letters.git[1P/letters.git[1P/letters.git[1P/letters.git[1P/letters.git[1P/letters.gitr/letters.gitA/letters.gitn/letters.gitd/letters.gitr/letters.gite/letters.gitw/letters.gitT/letters.gita/letters.gity/letters.gitl/letters.gito/letters.gitr/letters.git[C[C[C[C[C[C[C[C[1P.git[1P.git[1P.git[1P.git[1P.git[1P.git[1P.gite.gitd.git_.gitr.gite.gitp.gito.git[1P.gitr.gito.git[C[C[C[C
+bash: git@github.com:rAndrewTaylor/ed_repro.git: No such file or directory
+]0;~/Box Sync/ed_reproMacBook-Pro-3:ed_repro andrewtaylor$ git remote add origin https://github.com/rAndrewTaylor/ed_repro.git
+]0;~/Box Sync/ed_reproMacBook-Pro-3:ed_repro andrewtaylor$ git push -u origin master
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': git remote add origin https://github.com/rAndrewTaylor/ed_repro.git
+git push -u origin mastererror: cannot run rpostback-askpass: No such file or directory
+Password for 'https://git remote add origin https://github.com/rAndrewTaylor/ed_repro.git@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/rAndrewTaylor/ed_repro.git/'
+]0;~/Box Sync/ed_reproMacBook-Pro-3:ed_repro andrewtaylor$ git remote add origin https://github.com/rAndrewTaylor/ed_repro.git
+fatal: remote origin already exists.
+]0;~/Box Sync/ed_reproMacBook-Pro-3:ed_repro andrewtaylor$ git push -u origin master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit push -u origin master
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': ^[[A^[[A        
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://github.com': 
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/rAndrewTaylor/ed_repro.git/'
+]0;~/Box Sync/ed_reproMacBook-Pro-3:ed_repro andrewtaylor$ git push -u origin masterremote add origin https://github.com/rAndrewTaylor/ed_repro.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[42Ppush -u origin masterremote add origin https://github.com/rAndrewTaylor/ed_repro.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[42Ppush -u origin master
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': Mtheory11
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://Mtheory11@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/rAndrewTaylor/ed_repro.git/'
+]0;~/Box Sync/ed_reproMacBook-Pro-3:ed_repro andrewtaylor$ git push -u origin masterremote add origin https://github.com/rAndrewTaylor/ed_repro.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[42Ppush -u origin master
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': rAndrewTaylor
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://rAndrewTaylor@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/rAndrewTaylor/ed_repro.git/'
+]0;~/Box Sync/ed_reproMacBook-Pro-3:ed_repro andrewtaylor$ git push -u origin master
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': rAndrewTaylor
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://rAndrewTaylor@github.com': 
+Counting objects: 49, done.
+Delta compression using up to 8 threads.
+Compressing objects:   2% (1/35)   Compressing objects:   5% (2/35)   Compressing objects:   8% (3/35)   Compressing objects:  11% (4/35)   Compressing objects:  14% (5/35)   Compressing objects:  17% (6/35)   Compressing objects:  20% (7/35)   Compressing objects:  22% (8/35)   Compressing objects:  25% (9/35)   Compressing objects:  28% (10/35)   Compressing objects:  31% (11/35)   Compressing objects:  34% (12/35)   Compressing objects:  37% (13/35)   Compressing objects:  40% (14/35)   Compressing objects:  42% (15/35)   Compressing objects:  45% (16/35)   Compressing objects:  48% (17/35)   Compressing objects:  51% (18/35)   Compressing objects:  54% (19/35)   Compressing objects:  57% (20/35)   Compressing objects:  60% (21/35)   Compressing objects:  62% (22/35)   Compressing objects:  65% (23/35)   Compressing objects:  68% (24/35)   Compressing objects:  71% (25/35)   Compressing objects:  74% (26/35)   Compressing objects:  77% (27/35)   Compressing objects:  80% (28/35)   Compressing objects:  82% (29/35)   Compressing objects:  85% (30/35)   Compressing objects:  88% (31/35)   Compressing objects:  91% (32/35)   Compressing objects:  94% (33/35)   Compressing objects:  97% (34/35)   Compressing objects: 100% (35/35)   Compressing objects: 100% (35/35), done.
+Writing objects:   2% (1/49)   Writing objects:   4% (2/49)   Writing objects:   6% (3/49)   Writing objects:   8% (4/49)   Writing objects:  10% (5/49)   Writing objects:  12% (6/49)   Writing objects:  14% (7/49)   Writing objects:  16% (8/49)   Writing objects:  18% (9/49)   Writing objects:  20% (10/49)   Writing objects:  22% (11/49)   Writing objects:  24% (12/49)   Writing objects:  26% (13/49)   Writing objects:  28% (14/49)   Writing objects:  30% (15/49)   Writing objects:  32% (16/49)   Writing objects:  34% (17/49)   Writing objects:  36% (18/49)   Writing objects:  38% (19/49)   Writing objects:  40% (20/49)   Writing objects:  42% (21/49)   Writing objects:  44% (22/49)   Writing objects:  46% (23/49)   Writing objects:  48% (24/49)   Writing objects:  51% (25/49)   Writing objects:  53% (26/49)   Writing objects:  55% (27/49)   Writing objects:  57% (28/49)   Writing objects:  59% (29/49)   Writing objects:  61% (30/49)   Writing objects:  63% (31/49)   Writing objects:  65% (32/49)   Writing objects:  67% (33/49)   Writing objects:  69% (34/49)   Writing objects:  71% (35/49)   Writing objects:  73% (36/49)   Writing objects:  75% (37/49)   Writing objects:  77% (38/49)   Writing objects:  79% (39/49)   Writing objects:  81% (40/49)   Writing objects:  83% (41/49)   Writing objects:  85% (42/49)   Writing objects:  87% (43/49)   Writing objects:  89% (44/49)   Writing objects:  91% (45/49)   Writing objects:  93% (46/49)   Writing objects:  95% (47/49)   Writing objects:  97% (48/49)   Writing objects: 100% (49/49)   Writing objects: 100% (49/49), 7.65 KiB | 0 bytes/s, done.
+Total 49 (delta 0), reused 0 (delta 0)
+To https://github.com/rAndrewTaylor/ed_repro.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;~/Box Sync/ed_reproMacBook-Pro-3:ed_repro andrewtaylor$ [KMacBook-Pro-3:ed_repro andrewtaylor$ [KMacBook-Pro-3:ed_repro andrewtaylor$ [KMacBook-Pro-3:ed_repro andrewtaylor$ 
