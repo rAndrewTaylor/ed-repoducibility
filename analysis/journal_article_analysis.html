@@ -375,7 +375,7 @@ summary {
 </div>
 
 
-<p>This is an <a href="http://rmarkdown.rstudio.com">R Markdown</a> Notebook. When you execute code within the notebook, the results appear beneath the code. For the purposes of this paper we will provide a more in depth analysis of the open science practices within the selected emergency medicine journals.</p>
+<p>This is an html rendering of an <a href="http://rmarkdown.rstudio.com">R Markdown</a> Notebook. When you execute code within the notebook, the results appear beneath the code. For the purposes of this paper we will provide a more in depth analysis of the open science practices within the selected emergency medicine journals.</p>
 <pre class="r"><code># Initial import of required packages
 require(tidyverse)
 require(readxl)
@@ -776,11 +776,11 @@ NA
 <pre class="r"><code># Filter articles further for only primary journal articles 
 df &lt;- df %&gt;%
   filter((open_code_yn == &quot;Y&quot; | open_code_yn == &quot;N&quot;))</code></pre>
-<p>The total number of filtered charts was 643</p>
+<p>The total number of filtered articles was 643</p>
 </div>
 <div id="further-analysis" class="section level4">
 <h4>Further Analysis</h4>
-<p>The number of charts with open code, open data, etc. are presented below</p>
+<p>The number of articles with open code, open data, etc. are presented below</p>
 <pre class="r"><code>df %&gt;%
   select(open_code_yn:code_avail) %&gt;%
   gather(key, value) %&gt;%

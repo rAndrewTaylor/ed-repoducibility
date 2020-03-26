@@ -6,7 +6,7 @@ output:
     keep_md: true
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. For the purposes of this paper we will provide a more in depth analysis of the open science practices within the selected emergency medicine journals.
+This is an html rendering of an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. For the purposes of this paper we will provide a more in depth analysis of the open science practices within the selected emergency medicine journals.
 
 
 ```r
@@ -214,11 +214,11 @@ df <- df %>%
   filter((open_code_yn == "Y" | open_code_yn == "N"))
 ```
 
-The total number of filtered charts was 643
+The total number of filtered articles was 643
 
 
 #### Further Analysis
-The number of charts with open code, open data, etc. are presented below
+The number of articles with open code, open data, etc. are presented below
 
 
 ```r
