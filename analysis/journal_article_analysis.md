@@ -1,5 +1,6 @@
 ---
 title: 'Analysis of Open Science Practices within Emergency Medicine Journals '
+
 output: 
   html_document:
     keep_md: true
