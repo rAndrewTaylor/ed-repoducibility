@@ -3,7 +3,7 @@ title: 'Analysis of Open Science Practices within Emergency Medicine Journals '
 
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. For the purposes of this paper we will provide a more in depth analysis of the open science practices within the selected emergency medicine journals
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. For the purposes of this paper we will provide a more in depth analysis of the open science practices within the selected emergency medicine journals.
 
 ```{r setup_show,  eval=FALSE}
 # Initial import of required packages
@@ -25,9 +25,9 @@ require(kableExtra)
 
 We initially performed an Ovid Seach to identify all the articles from 2018 for the selected journals.
 
-![Ovid Search Strategy for journal articles.](../data/ovid_search.png)
+![Ovid Search Strategy for journal articles.](../graphs_figures/ovid_search.png)
 
-Two reviewers (KD & TP) then reviewed all articles for reference to open code and open data practices. Articles were considered to have open code and/or open data if references to the sources were provided (e.g. github, public repository url). Reviewers additional recorded informration on code language type (e.g. R, STATA), name of public data sets, and whether the data and code were available. TA sample of XX articles were reviewed by both reviewers to determine a kappa statistic for agreement.
+Two reviewers (KD & TP) then reviewed all articles for reference to open code and open data practices. Articles were considered to have open code and/or open data if references to the sources were provided (e.g. github, public repository url). Reviewers additionally recorded information on code language type (e.g. R, STATA), name of public data sets. A sample of 20 articles were reviewed by both reviewers to determine a kappa statistic for agreement.
 
 #### Presentation of Raw Data
 ```{r}
@@ -38,11 +38,11 @@ kable(head(df)) %>%
   scroll_box(width = "100%", height = "200px")
 ```
 
-The total number of intial charts was `r nrow(df) `
+The total number of intial articles was `r nrow(df) `
 
 #### Data Cleaning
-Articles were filtered for primary journal articles by Ovid Listed Journal Type
-and Reviewers
+Articles were filtered for primary journal articles by Ovid listed journal type
+and through manual review
 ```{r}
 # Filter articles further for only primary journal articles 
 df <- df %>%
@@ -51,6 +51,10 @@ df <- df %>%
 ```
 
 The total number of filtered charts was `r nrow(df) `
+
+
+#### Further Analysis
+The number of charts with open code, open data, etc. are presented below
 
 ```{r}
 df %>%
@@ -61,4 +65,6 @@ df %>%
 ```
 
 
+Review of Top Standards for Emergency Medicine Journals.
+![](../graphs_figures/Top_Standards.png)
 
