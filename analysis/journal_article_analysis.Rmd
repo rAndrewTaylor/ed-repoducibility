@@ -1,6 +1,8 @@
 ---
 title: 'Analysis of Open Science Practices within Emergency Medicine Journals '
-
+output: 
+  html_document:
+    keep_md: true
 ---
 
 This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. For the purposes of this paper we will provide a more in depth analysis of the open science practices within the selected emergency medicine journals.
